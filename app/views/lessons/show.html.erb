@@ -1,14 +1,21 @@
-<p id="notice"><%= notice %></p>
+<div class="container">
+  <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @lesson.title %>
-</p>
+  <p>
+    <strong>Title:</strong>
+    <%= @lesson.title %>
+  </p>
 
-<p>
-  <strong>Level:</strong>
-  <%= @lesson.level %>
-</p>
+  <p>
+    <strong>Level:</strong>
+    <%= @lesson.level %>
+  </p>
 
-<%= link_to 'Edit', edit_lesson_path(@lesson) %> |
-<%= link_to 'Back', root_path %>
+  <p>
+    <strong>Text:</strong>
+    <%= @lesson.text %>
+  </p>
+
+  <%= link_to 'Edit', edit_lesson_path(@lesson) %> |
+  <%= link_to 'Back', root_path %>
+</div>

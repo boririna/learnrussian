@@ -1,7 +1,13 @@
 body {
   background-color: #fff;
   color: #333;
-  margin: 33px;
+  margin: 30px auto;
+}
+
+.container {
+  min-height: 600px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 body, p, ol, ul, td {
@@ -71,6 +77,6 @@ label {
   display: block; }
 
 
-.form-style {
-  min-height: 300px;
-}
+// .form-style {
+//   min-height: 300px;
+// }
